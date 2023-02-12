@@ -1,11 +1,49 @@
-/* Bright orange: hsl(31, 77%, 52%)
-Dark cyan: hsl(184, 100%, 22%)
-Very dark cyan: hsl(179, 100%, 13%) 
+@media (max-width: 767px) {
+    
+}
 
-Transparent white (paragraphs): hsla(0, 0%, 100%, 0.75)
-Very light gray (background, headings, buttons): hsl(0, 0%, 95%)
+body {
+    height: 100vh;
+}
 
-font-family: 'Big Shoulders Display', cursive;
-font-family: 'Lexend Deca', sans-serif;
-*/
+* {
+    text-transform: capitalize;
+    box-sizing: border-box;
+}
 
+.container {
+    height: 100%;
+}
+
+.container > div {
+    height: 100%;
+}
+
+.container > div h1 {
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+}
+
+.container > div p {
+    color: rgb(240, 240, 240);
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 200;
+    font-size: 0.8em;
+    line-height: 1.5;
+}
+
+.container > div button {
+    border: 1px solid white;
+    font-family: 'Lexend Deca', sans-serif;
+    padding: 10px;
+    font-weight: 400;
+    width: 120px;
+    border-radius: 12px;
+    transition: 0.4s;
+}
+
+button:hover {
+    color: white;
+    background-color: transparent;
+}

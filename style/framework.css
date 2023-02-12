@@ -1,0 +1,58 @@
+.d-flex-cen-cen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.d-flex-cen-betw {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+}
+
+.container-height {
+    height: 400px;
+    width: 800px;
+}
+
+.p-20 {
+    padding: 20px;
+}
+
+.p-l-r-20 {
+    padding: 0 20px;
+}
+
+.orange-bg-c {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.cyan-bg-c {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.dark-cyan-bg-c {
+    background-color: hsl(179, 100%, 13%);
+}
+
+.orange-c {
+    color: hsl(31, 77%, 52%);
+}
+
+.cyan-c {
+    color: hsl(184, 100%, 22%);
+}
+
+.dark-cyan-c {
+    color: hsl(179, 100%, 13%);
+}
+
+.left-br {
+    border-radius: 10px 0px 0px 10px;
+}
+
+.right-br {
+    border-radius: 0 10px 10px 0;
+}
+
