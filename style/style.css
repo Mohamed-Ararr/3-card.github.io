@@ -48,7 +48,7 @@ main {
     height: 100%;
 }
 
-.container > div h1 {
+.container > div h2 {
     color: white;
     font-family: 'Lexend Deca', sans-serif;
     font-weight: 400;
@@ -62,17 +62,20 @@ main {
     line-height: 1.5;
 }
 
-.container > div button {
+.container > div a {
     border: 1px solid white;
     font-family: 'Lexend Deca', sans-serif;
+    background-color: white;
+    text-decoration: none;
     padding: 10px;
     font-weight: 400;
     width: 120px;
     border-radius: 12px;
     transition: 0.4s;
+    text-align: center;
 }
 
-button:hover {
+a:hover {
     color: white;
-    background-color: transparent;
+    background-color: transparent !important;
 }
